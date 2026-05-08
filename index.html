@@ -1,558 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anil Dadasaheb Poul - Backend Developer</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-  </head>
-  <body>
-    <!-- Navigation Header -->
-    <nav class="navbar" id="navbar">
-      <div class="nav-container">
-        <div class="nav-brand">
-          <span class="brand-text">Anil Poul</span>
-        </div>
-        <div class="nav-menu" id="nav-menu">
-          <a href="#home" class="nav-link">Home</a>
-          <a href="#about" class="nav-link">About</a>
-          <a href="#experience" class="nav-link">Experience</a>
-          <a href="#skills" class="nav-link">Skills</a>
-          <a href="#projects" class="nav-link">Projects</a>
-          <a href="#education" class="nav-link">Education</a>
-          <a href="#certifications" class="nav-link">Certifications</a>
-          <a href="#contact" class="nav-link">Contact</a>
-        </div>
-        <div class="nav-hamburger" id="nav-hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anil Poul | Java Backend Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <div class="hero-text">
-            <h1 class="hero-title">Anil Dadasaheb Poul</h1>
-            <p class="hero-subtitle">Backend Developer</p>
-            <p class="hero-tagline">
-              Building robust Java-based APIs and scalable services with
-              expertise in Spring Boot, automation testing, and cloud deployment
-            </p>
-            <div class="hero-buttons">
-              <a href="#contact" class="btn btn--primary">Contact Me</a>
-              <a href="Anil_Poul_ResumeV1.pdf" download class="btn btn--primary"
-                >Download Resume</a
-              >
-            </div>
-            <div class="social-links">
-              <a
-                href="https://github.com/anilpoul"
-                target="_blank"
-                class="social-link"
-                aria-label="GitHub"
-              >
-                <i data-lucide="github"></i>
-              </a>
-              <a
-                href="https://linkedin.com/in/anilpoul"
-                target="_blank"
-                class="social-link"
-                aria-label="LinkedIn"
-              >
-                <i data-lucide="linkedin"></i>
-              </a>
-              <a
-                href="mailto:anilpoul9999@email.com"
-                class="social-link"
-                aria-label="Email"
-              >
-                <i data-lucide="mail"></i>
-              </a>
-            </div>
-          </div>
-          <div class="hero-image">
-            <div
-              class="profile-placeholder"
-              style="
-                width: 200px;
-                height: 200px;
-                overflow: hidden;
-                border-radius: 50%;
-              "
-            >
-              <img
-                src="IMG_7924.JPG"
-                alt="Profile Photo"
-                style="width: 100%; height: 100%; object-fit: cover"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- ==================== NAVBAR ==================== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">AP</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">About Me</h2>
-        </div>
-        <div class="about-content">
-          <p class="about-text">
-            I am a backend developer with expertise in building robust
-            Java-based APIs and scalable services. With hands-on experience in
-            Spring Boot, RESTful APIs, automation testing, and cloud deployment,
-            I specialize in SAP API integrations, database optimization,
-            logging, and exception handling. Known for my problem-solving skills
-            and teamwork, I thrive on creating clean, efficient, and
-            maintainable backend solutions.
+  <!-- ==================== HERO ==================== -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Available for new opportunities
+          </div>
+          <h1 class="hero-name">Anil Dadasaheb<br><span>Poul</span></h1>
+          <p class="hero-title">Java Backend Developer &middot; Spring Boot &middot; Microservices</p>
+          <p class="hero-summary">
+            ~2 years building scalable, production-ready backend systems at Avaali Solutions.
+            Delivered an 80% improvement in batch processing performance. Published IEEE researcher
+            in LSTM-based mmWave beam prediction.
           </p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Get in Touch</a>
+            <a href="#projects" class="btn btn-outline"><i class="fa-solid fa-code"></i> View Projects</a>
+          </div>
+          <div class="hero-links">
+            <a href="https://www.linkedin.com/in/anil-poul" target="_blank" class="hero-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Anilpoul" target="_blank" class="hero-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://ieeexplore.ieee.org/document/10775289" target="_blank" class="hero-link" aria-label="IEEE">
+              <i class="fa-solid fa-book-open"></i>
+            </a>
+            <a href="mailto:anilpaul1225@gmail.com" class="hero-link" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-avatar">👨‍💻</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label">Overview</p>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-divider"></div>
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-value">~2 yrs</div>
+          <div class="stat-label">Industry Experience</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">80%</div>
+          <div class="stat-label">Batch Processing Gain</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">30+</div>
+          <div class="stat-label">REST Endpoints Built</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">8.84</div>
+          <div class="stat-label">CGPA (B.E.)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">IEEE</div>
+          <div class="stat-label">Published Researcher</div>
         </div>
       </div>
-    </section>
+      <p class="about-text">
+        Backend Developer based in <strong>Bengaluru, India</strong>, specializing in Java, Spring Boot,
+        and Microservices. At Avaali Solutions I own end-to-end module development — from design through
+        production deployment — with a strong track record in performance optimization and production support.
+        Also an <strong>IEEE-published researcher</strong> in mmWave beam prediction using LSTM.
+      </p>
+    </div>
+  </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Experience</h2>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="experience-card">
-                <div class="exp-header">
-                  <h3 class="exp-title">Backend Developer</h3>
-                  <span class="exp-period">Jan 2024 – Present</span>
-                </div>
-                <p class="exp-company">Avaali Solutions Pvt. Ltd.</p>
-                <ul class="exp-achievements">
-                  <li>
-                    Integrated SAP APIs with the backend for seamless data
-                    exchange
-                  </li>
-                  <li>
-                    Optimized database queries using JPA & Hibernate to improve
-                    performance
-                  </li>
-                  <li>
-                    Implemented logging and exception handling for backend
-                    services
-                  </li>
-                </ul>
+  <!-- ==================== EXPERIENCE ==================== -->
+  <section id="experience" class="section-alt">
+    <div class="container">
+      <p class="section-label">Career</p>
+      <h2 class="section-title">Experience</h2>
+      <div class="section-divider"></div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Backend Developer</div>
+                <div class="exp-company">Avaali Solutions Pvt. Ltd., Bengaluru</div>
               </div>
+              <span class="exp-date">Jul 2024 – Present</span>
             </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="experience-card">
-                <div class="exp-header">
-                  <h3 class="exp-title">Automation Tester</h3>
-                  <span class="exp-period">July 2024 – Jan 2025</span>
-                </div>
-                <p class="exp-company">Avaali Solutions Pvt. Ltd.</p>
-                <ul class="exp-achievements">
-                  <li>
-                    Learned and performed manual & automation testing using
-                    Selenium & Java
-                  </li>
-                  <li>
-                    Created test cases, executed test scripts, and reported bugs
-                    using Azure board
-                  </li>
-                  <li>
-                    Worked closely with developers to understand backend
-                    functionalities
-                  </li>
-                </ul>
-              </div>
+            <ul class="exp-list">
+              <li>Improved batch processing performance by <strong>80%</strong> by re-architecting database queries and optimizing processing logic, directly reducing job execution time in production.</li>
+              <li>Integrated <strong>SAP APIs</strong> with backend services to enable seamless real-time data exchange across enterprise modules.</li>
+              <li>Owned end-to-end development of multiple backend modules — from design and implementation through to production deployment and ongoing support.</li>
+              <li>Optimized database queries using <strong>JPA &amp; Hibernate</strong>, significantly reducing query execution time and improving overall API response times.</li>
+              <li>Handled production incidents and ensured high system reliability; implemented robust logging and exception handling to improve observability.</li>
+            </ul>
+            <div class="award-badges">
+              <span class="award-badge"><i class="fa-solid fa-trophy"></i> Quarterback Award – Q1 FY 2025-26</span>
+              <span class="award-badge"><i class="fa-solid fa-star"></i> Rising Star Award – FY 2025-26</span>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Skills</h2>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-category">
-            <h4 class="skill-category-title">Programming Languages</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">Java</span>
-              <span class="skill-tag">SQL</span>
-            </div>
+  <!-- ==================== SKILLS ==================== -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">Expertise</p>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="section-divider"></div>
+      <div class="skills-grid">
+        <div class="skill-cat-card">
+          <div class="skill-cat-title">
+            <div class="skill-cat-icon"><i class="fa-solid fa-code"></i></div>
+            Languages
           </div>
-          <div class="skill-category">
-            <h4 class="skill-category-title">Frameworks</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">Spring Boot</span>
-              <span class="skill-tag">Hibernate</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h4 class="skill-category-title">Cloud Platforms</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">AWS (EC2, S3, RDS)</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h4 class="skill-category-title">Containerization</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">Docker</span>
-              <span class="skill-tag">Podman</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h4 class="skill-category-title">Microservices</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">REST APIs</span>
-              <span class="skill-tag">JWT</span>
-              <span class="skill-tag">Spring Security</span>
-              <span class="skill-tag">Load Balancing</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h4 class="skill-category-title">Testing Tools</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">Selenium</span>
-              <span class="skill-tag">TestNG</span>
-              <span class="skill-tag">JUnit</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h4 class="skill-category-title">Databases</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">MySQL</span>
-              <span class="skill-tag">PostgreSQL</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h4 class="skill-category-title">DevOps & CI/CD</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">Git</span>
-              <span class="skill-tag">Maven</span>
-            </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">SQL</span>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Projects</h2>
+        <div class="skill-cat-card">
+          <div class="skill-cat-title">
+            <div class="skill-cat-icon"><i class="fa-solid fa-layer-group"></i></div>
+            Frameworks &amp; Libraries
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Spring Security</span>
+            <span class="skill-tag">Spring Data JPA</span>
+            <span class="skill-tag">Hibernate</span>
+            <span class="skill-tag">Spring AI</span>
+          </div>
         </div>
-        <div class="projects-grid">
-          <div class="project-card">
-            <div class="project-header">
-              <h3 class="project-title">Blog Application Backend</h3>
-              <span class="project-year">2024</span>
-            </div>
-            <p class="project-description">
-              Developed a Blog Application backend using Spring Boot and Java,
-              enabling users to create, update, and delete posts and comments.
-              Implemented RESTful APIs for user management, category management,
-              and post search by category or user.
-            </p>
-            <div class="project-tech">
-              <span class="tech-tag">Spring Boot</span>
-              <span class="tech-tag">Spring Security</span>
-              <span class="tech-tag">MySQL</span>
-              <span class="tech-tag">JWT</span>
-            </div>
-            <div class="project-links">
-              <a href="https://github.com/Anilpoul/BlogApp-Backend" class="btn btn--sm btn--outline" target="_blank">
-                <i data-lucide="github"></i>
-                GitHub
-              </a>
-            </div>
+        <div class="skill-cat-card">
+          <div class="skill-cat-title">
+            <div class="skill-cat-icon"><i class="fa-solid fa-network-wired"></i></div>
+            APIs &amp; Microservices
           </div>
-
-          <div class="project-card">
-            <div class="project-header">
-              <h3 class="project-title">
-                Beam Prediction in mm-Wave Communication
-              </h3>
-              <span class="project-year">2024</span>
-            </div>
-            <p class="project-description">
-              Developed an algorithm to minimize overhead during beam training,
-              optimizing the beam alignment process in mm-wave communication
-              systems. Applied LSTM networks for predicting beam direction and
-              minimizing signal loss.
-            </p>
-            <div class="project-tech">
-              <span class="tech-tag">MATLAB</span>
-              <span class="tech-tag">LSTM</span>
-              <span class="tech-tag">Machine Learning</span>
-              <span class="tech-tag">Signal Processing</span>
-            </div>
-            <div class="project-links">
-              <a href="#" class="btn btn--sm btn--outline" target="_blank">
-                <i data-lucide="github"></i>
-                GitHub
-              </a>
-            </div>
+          <div class="skill-tags">
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">JWT Auth</span>
+            <span class="skill-tag">Load Balancing</span>
+            <span class="skill-tag">Microservices</span>
+            <span class="skill-tag">SAP APIs</span>
           </div>
-
-          <div class="project-card">
-            <div class="project-header">
-              <h3 class="project-title">YouTube Clone</h3>
-              <span class="project-year">2023</span>
-            </div>
-            <p class="project-description">
-              Developed a YouTube clone featuring a responsive user interface
-              for video listing and playback. Implemented dynamic elements for
-              video search, like/dislike functionality, and adaptive layouts for
-              seamless cross-device compatibility.
-            </p>
-            <div class="project-tech">
-              <span class="tech-tag">HTML</span>
-              <span class="tech-tag">Bootstrap CSS</span>
-              <span class="tech-tag">JavaScript</span>
-            </div>
-            <div class="project-links">
-              <a href="https://anilpoul.github.io/youtube.github.io/index.html" class="btn btn--sm btn--outline" target="_blank">
-                <i data-lucide="github"></i>
-                GitHub
-              </a>
-            </div>
+        </div>
+        <div class="skill-cat-card">
+          <div class="skill-cat-title">
+            <div class="skill-cat-icon"><i class="fa-solid fa-database"></i></div>
+            Databases
           </div>
-
-          <div class="project-card">
-            <div class="project-header">
-              <h3 class="project-title">AI-Chat Application</h3>
-              <span class="project-year">2024</span>
-            </div>
-            <p class="project-description">
-              Developed an AI chat application using Ollama, leveraging advanced
-              natural language processing capabilities to provide dynamic and
-              engaging conversations. Integrated intuitive chat interfaces for
-              seamless user interaction.
-            </p>
-            <div class="project-tech">
-              <span class="tech-tag">Spring Boot</span>
-              <span class="tech-tag">Spring AI</span>
-              <span class="tech-tag">Ollama</span>
-            </div>
-            <div class="project-links">
-              <a href="https://github.com/Anilpoul/AI-Chat-Application" class="btn btn--sm btn--outline" target="_blank">
-                <i data-lucide="github"></i>
-                GitHub
-              </a>
-            </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-cat-card">
+          <div class="skill-cat-title">
+            <div class="skill-cat-icon"><i class="fa-brands fa-aws"></i></div>
+            Cloud &amp; DevOps
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS EC2</span>
+            <span class="skill-tag">AWS S3</span>
+            <span class="skill-tag">AWS RDS</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Podman</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Maven</span>
+          </div>
+        </div>
+        <div class="skill-cat-card">
+          <div class="skill-cat-title">
+            <div class="skill-cat-icon"><i class="fa-solid fa-vial"></i></div>
+            Testing &amp; Tools
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">JUnit</span>
+            <span class="skill-tag">TestNG</span>
+            <span class="skill-tag">Azure Boards</span>
+            <span class="skill-tag">Zoho Desk</span>
+            <span class="skill-tag">DSA (Java)</span>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Education Section -->
-    <section id="education" class="education">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Education</h2>
-        </div>
-        <div class="education-grid">
-          <div class="education-card">
-            <div class="edu-icon">
-              <i data-lucide="graduation-cap"></i>
+  <!-- ==================== PROJECTS ==================== -->
+  <section id="projects" class="section-alt">
+    <div class="container">
+      <p class="section-label">Work</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-divider"></div>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-card-top">
+            <div class="project-icon" style="background:#eff6ff; color:#2563eb;">
+              <i class="fa-solid fa-pen-nib"></i>
             </div>
-            <div class="edu-content">
-              <h3 class="edu-degree">
-                B.E. - Electronics and Telecommunication Engineering
-              </h3>
-              <p class="edu-institution">
-                Dr. D Y Patil Institute of Technology, Pimpri, Pune
-              </p>
-              <div class="edu-details">
-                <span class="edu-grade">CGPA: 8.84</span>
-                <span class="edu-year">2024</span>
-              </div>
-            </div>
+            <span class="project-title">Blog Application Backend</span>
           </div>
-
-          <div class="education-card">
-            <div class="edu-icon">
-              <i data-lucide="graduation-cap"></i>
-            </div>
-            <div class="edu-content">
-              <h3 class="edu-degree">
-                Diploma - Electronics and Telecommunication
-              </h3>
-              <p class="edu-institution">Government Polytechnic Aurangabad</p>
-              <div class="edu-details">
-                <span class="edu-grade">Percentage: 90.59%</span>
-                <span class="edu-year">2021</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Certifications</h2>
-        </div>
-        <div class="certifications-grid">
-          <div class="cert-card">
-            <div class="cert-icon">
-              <i data-lucide="award"></i>
-            </div>
-            <div class="cert-content">
-              <h4 class="cert-name">DSA with Java</h4>
-              <p class="cert-provider">Apna College</p>
-            </div>
-          </div>
-
-          <div class="cert-card">
-            <div class="cert-icon">
-              <i data-lucide="award"></i>
-            </div>
-            <div class="cert-content">
-              <h4 class="cert-name">
-                Master Java, Spring Framework 6, and Spring Boot 3
-              </h4>
-              <p class="cert-provider">Telusko (Udemy)</p>
-            </div>
-          </div>
-
-          <div class="cert-card">
-            <div class="cert-icon">
-              <i data-lucide="award"></i>
-            </div>
-            <div class="cert-content">
-              <h4 class="cert-name">Java Basics</h4>
-              <p class="cert-provider">HackerRank</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Get In Touch</h2>
-          <p class="section-subtitle">
-            Let's discuss opportunities and collaborate on exciting projects
+          <p class="project-desc">
+            Production-ready Blog API supporting user authentication, role-based access control,
+            post/comment management, and category-based search across <strong>30+ REST endpoints</strong>.
+            JWT-based authentication with clean layered architecture.
           </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Spring Security</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">JWT</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Anilpoul/BlogApp-Backend" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
         </div>
-        <div class="contact-content">
-          <div class="contact-info">
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i data-lucide="mail"></i>
-              </div>
-              <div class="contact-details">
-                <h4>Email</h4>
-                <p>anilpoul9999@email.com</p>
-              </div>
-            </div>
 
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i data-lucide="phone"></i>
-              </div>
-              <div class="contact-details">
-                <h4>Phone</h4>
-                <p>+91-8459460565</p>
-              </div>
+        <div class="project-card featured">
+          <div class="project-card-top">
+            <div class="project-icon" style="background:#fefce8; color:#a16207;">
+              <i class="fa-solid fa-satellite-dish"></i>
             </div>
+            <span class="project-title">
+              Beam Prediction in mmWave
+              <span class="ieee-badge">IEEE Published</span>
+            </span>
+          </div>
+          <p class="project-desc">
+            LSTM-based algorithm for beam direction prediction in mmWave communication.
+            Achieved a <strong>20% reduction in beam training time</strong>.
+            Published and indexed on IEEE Xplore (2024).
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">MATLAB</span>
+            <span class="skill-tag">LSTM</span>
+            <span class="skill-tag">Machine Learning</span>
+          </div>
+          <div class="project-links">
+            <a href="https://ieeexplore.ieee.org/document/10775289" target="_blank" class="project-link">
+              <i class="fa-solid fa-book-open"></i> IEEE Xplore
+            </a>
+          </div>
+        </div>
 
-            <div class="social-links-section">
-              <h4>Follow Me</h4>
-              <div class="social-links">
-                <a
-                  href="https://github.com/anilpoul"
-                  target="_blank"
-                  class="social-link"
-                >
-                  <i data-lucide="github"></i>
-                </a>
-                <a
-                  href="https://linkedin.com/in/anilpoul"
-                  target="_blank"
-                  class="social-link"
-                >
-                  <i data-lucide="linkedin"></i>
-                </a>
-              </div>
+        <div class="project-card">
+          <div class="project-card-top">
+            <div class="project-icon" style="background:#f0fdf4; color:#16a34a;">
+              <i class="fa-solid fa-robot"></i>
             </div>
+            <span class="project-title">AI Chat Application</span>
+          </div>
+          <p class="project-desc">
+            Integrated Ollama LLM with a Spring Boot backend using Spring AI to enable real-time
+            natural language conversations with efficient backend request handling.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Spring AI</span>
+            <span class="skill-tag">Ollama</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Anilpoul/AI-Chat-Application" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
 
-            <div class="resume-download">
-              <a
-                href="Anil_Poul_ResumeV1.pdf"
-                download
-                class="btn btn--primary btn--full-width"
-                >Download Resume</a
-              >
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EDUCATION ==================== -->
+  <section id="education">
+    <div class="container">
+      <p class="section-label">Academic</p>
+      <h2 class="section-title">Education</h2>
+      <div class="section-divider"></div>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div>
+            <div class="edu-degree">B.E. – Electronics &amp; Telecommunication Engineering</div>
+            <div class="edu-school">Dr. D Y Patil Institute of Technology, Pimpri, Pune</div>
+            <div class="edu-meta">
+              <span class="edu-badge cgpa">CGPA: 8.84 / 10</span>
+              <span class="edu-badge year">2024</span>
             </div>
           </div>
-
-          <div class="contact-form-container">
-            <form class="contact-form" id="contact-form">
-              <div class="form-group">
-                <label>Name *</label>
-                <input type="text" name="name" class="form-control" required />
-              </div>
-              <div class="form-group">
-                <label>Email *</label>
-                <input
-                  type="email"
-                  name="email"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label>Subject *</label>
-                <input
-                  type="text"
-                  name="subject"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label>Message *</label>
-                <textarea
-                  name="message"
-                  rows="5"
-                  class="form-control"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn--primary btn--full-width">
-                Send Message
-              </button>
-            </form>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+          <div>
+            <div class="edu-degree">Diploma – Electronics &amp; Telecommunication</div>
+            <div class="edu-school">Government Polytechnic Aurangabad</div>
+            <div class="edu-meta">
+              <span class="edu-badge cgpa">90.59%</span>
+              <span class="edu-badge year">2021</span>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer">
-      <div class="container">
-        <p>&copy; 2025 Anil Dadasaheb Poul. All rights reserved.</p>
+  <!-- ==================== CERTIFICATIONS ==================== -->
+  <section id="certifications" class="section-alt">
+    <div class="container">
+      <p class="section-label">Credentials</p>
+      <h2 class="section-title">Certifications &amp; Achievements</h2>
+      <div class="section-divider"></div>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-brands fa-java"></i></div>
+          <div>
+            <div class="cert-name">Java Spring Framework 6 with Spring Boot 3</div>
+            <div class="cert-source">Telusko &middot; Udemy</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-diagram-project"></i></div>
+          <div>
+            <div class="cert-name">DSA with Java</div>
+            <div class="cert-source">Apna College</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-brands fa-docker"></i></div>
+          <div>
+            <div class="cert-name">Learning Docker</div>
+            <div class="cert-source">LinkedIn Learning</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-brands fa-hackerrank"></i></div>
+          <div>
+            <div class="cert-name">Java (Basic) &amp; Problem Solving (Basic)</div>
+            <div class="cert-source">HackerRank</div>
+          </div>
+        </div>
+        <div class="cert-card award">
+          <div class="cert-icon"><i class="fa-solid fa-trophy"></i></div>
+          <div>
+            <div class="cert-name">Quarterback Award – Q1 FY 2025-26</div>
+            <div class="cert-source">Avaali Solutions &middot; Top Performer Recognition</div>
+          </div>
+        </div>
+        <div class="cert-card award">
+          <div class="cert-icon"><i class="fa-solid fa-star"></i></div>
+          <div>
+            <div class="cert-name">Rising Star Award – FY 2025-26</div>
+            <div class="cert-source">Avaali Solutions &middot; Annual Award for Overall Year Performance</div>
+          </div>
+        </div>
       </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script src="app.js"></script>
-  </body>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <p class="section-label" style="text-align:center;">Reach Out</p>
+        <h2 class="section-title" style="text-align:center;">Get In Touch</h2>
+        <div class="section-divider" style="margin: 0 auto 1.5rem;"></div>
+        <p class="contact-desc">
+          Open to backend engineering roles, collaborations, or a good conversation about distributed systems.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:anilpaul1225@gmail.com" class="contact-link">
+            <i class="fa-solid fa-envelope"></i> anilpaul1225@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/anil-poul" target="_blank" class="contact-link">
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+          </a>
+          <a href="https://github.com/Anilpoul" target="_blank" class="contact-link">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://anilpoul.github.io/" target="_blank" class="contact-link">
+            <i class="fa-solid fa-globe"></i> Portfolio
+          </a>
+          <a href="tel:+918459460565" class="contact-link">
+            <i class="fa-solid fa-phone"></i> +91-8459460565
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <p>Designed &amp; built by Anil Dadasaheb Poul &middot; Bengaluru, India</p>
+  </footer>
+
+  <script>
+    // NAVBAR BUG FIX
+    // Background is ALWAYS white. Only box-shadow + border appear on scroll.
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 20) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    }, { passive: true });
+
+    // MOBILE MENU
+    const navToggle = document.getElementById('navToggle');
+    const navLinks  = document.getElementById('navLinks');
+    navToggle.addEventListener('click', function () {
+      navLinks.classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        navLinks.classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
 </html>
